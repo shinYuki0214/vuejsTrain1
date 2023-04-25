@@ -1,0 +1,29 @@
+.sec-04__block {
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+    input {
+        border: 1px solid #ccc;
+        padding: 8px;
+        width: 100%;
+    }
+
+    textarea {
+        border: 1px solid #ccc;
+        padding: 8px;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.sec-04__btn {
+    padding: 24px;
+    background-color: #9fc1e1;
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 8px;
+}
